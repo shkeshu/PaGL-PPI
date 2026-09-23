@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "device": "cuda",
+  "data": {
+    "train_pairs": "Data/processed/canonical/train_pairs.csv",
+    "val_pairs": "Data/processed/canonical/val_pairs.csv",
+    "segment_embedding_dir": "Data/embeddings/ESM2_t33_segments"
+  },
+  "model": {
+    "segment_dim": 256,
+    "heads": 4,
+    "classifier_hidden": 384,
+    "dropout": 0.3
+  },
+  "training": {
+    "batch_size": 64,
+    "epochs": 30,
+    "lr": 0.0002,
+    "weight_decay": 0.0005,
+    "early_stopping_patience": 5,
+    "grad_clip": 1.0
+  },
+  "modes": [
+    "B1_segment_only",
+    "B2_segment_cross",
+    "B3_cross_global_concat",
+    "B4_full_gate"
+  ],
+  "output_dir": "Results/segment_cross_ablation"
+}

@@ -1,0 +1,13 @@
+﻿Setting,Model,Random AUPRC,F1,MCC,AUROC,AUPRC,AUPRC / Random,Best mean AUPRC,Lowest AUPRC std
+Human Full,Global branch,0.0909,0.2656 ± 0.0048,0.2180 ± 0.0072,0.7673 ± 0.0080,0.3614 ± 0.0276,3.97×,False,False
+Human Full,ESM2-GP,0.0909,0.2589 ± 0.0137,0.2131 ± 0.0167,0.7748 ± 0.0144,0.3733 ± 0.0432,4.11×,True,False
+Human Full,Partner-aware Local,0.0909,0.2759 ± 0.0107,0.2319 ± 0.0122,0.7762 ± 0.0121,0.3534 ± 0.0220,3.89×,False,False
+Human Full,PaGL-PPI,0.0909,0.2774 ± 0.0072,0.2368 ± 0.0099,0.7846 ± 0.0092,0.3722 ± 0.0085,4.09×,False,True
+Human NovelVsTrain,Global branch,0.0721,0.2146 ± 0.0051,0.1861 ± 0.0087,0.7542 ± 0.0065,0.3073 ± 0.0201,4.26×,False,False
+Human NovelVsTrain,ESM2-GP,0.0721,0.2087 ± 0.0114,0.1819 ± 0.0148,0.7601 ± 0.0151,0.3115 ± 0.0422,4.32×,False,False
+Human NovelVsTrain,Partner-aware Local,0.0721,0.2219 ± 0.0088,0.1965 ± 0.0118,0.7639 ± 0.0117,0.3018 ± 0.0129,4.19×,False,False
+Human NovelVsTrain,PaGL-PPI,0.0721,0.2232 ± 0.0058,0.2010 ± 0.0089,0.7711 ± 0.0091,0.3176 ± 0.0050,4.41×,True,True
+Human NovelVsAll,Global branch,0.0468,0.1421 ± 0.0038,0.1330 ± 0.0068,0.7045 ± 0.0121,0.1184 ± 0.0217,2.53×,False,False
+Human NovelVsAll,ESM2-GP,0.0468,0.1375 ± 0.0076,0.1302 ± 0.0097,0.7123 ± 0.0145,0.1348 ± 0.0331,2.88×,True,False
+Human NovelVsAll,Partner-aware Local,0.0468,0.1476 ± 0.0062,0.1437 ± 0.0093,0.7199 ± 0.0122,0.1058 ± 0.0124,2.26×,False,False
+Human NovelVsAll,PaGL-PPI,0.0468,0.1489 ± 0.0048,0.1475 ± 0.0086,0.7261 ± 0.0062,0.1145 ± 0.0092,2.45×,False,True

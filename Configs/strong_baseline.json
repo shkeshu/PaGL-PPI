@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "device": "cuda",
+  "data": {
+    "train_pairs": "Data/processed/canonical/train_pairs.csv",
+    "val_pairs": "Data/processed/canonical/val_pairs.csv",
+    "embedding_dir": "Data/embeddings/ESM2_t33"
+  },
+  "model": {
+    "input_dim": 1280,
+    "projection_dim": 384,
+    "hidden_dim": 384,
+    "dropout": 0.35
+  },
+  "pair_modes": [
+    "diff",
+    "product",
+    "diff_product",
+    "sum_diff_product"
+  ],
+  "training": {
+    "batch_size": 512,
+    "epochs": 40,
+    "lr": 0.0002,
+    "weight_decay": 0.0005,
+    "early_stopping_patience": 6,
+    "grad_clip": 1.0,
+    "num_workers": 0
+  },
+  "threshold_calibration": {
+    "metric": "f1",
+    "min": 0.1,
+    "max": 0.9,
+    "step": 0.01
+  },
+  "output_dir": "Results/strong_baseline"
+}

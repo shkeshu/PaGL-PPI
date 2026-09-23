@@ -1,0 +1,5 @@
+﻿Ablation,Configuration,Seeds,AUPRC,AUROC,MCC,ΔAUPRC_vs_B0
+B0,Global branch,3,0.6707 ± 0.0018,0.6668 ± 0.0028,0.2285 ± 0.0078,+0.0000
+B1,Segment-only,3,0.6677 ± 0.0017,0.6617 ± 0.0016,0.2265 ± 0.0022,-0.0030
+B2,Partner-aware Local,3,0.6782 ± 0.0010,0.6771 ± 0.0013,0.2535 ± 0.0075,+0.0075
+B3,Cross-attention + global feature concatenation,3,0.6781 ± 0.0063,0.6734 ± 0.0091,0.2445 ± 0.0187,+0.0074

@@ -1,0 +1,8 @@
+﻿Method,Representation,Evaluation,AUPRC,Comparison_scope
+Topsy-Turvy,Sequence / network representation,Reported Bernett result,0.590,Literature-reported; protocol may differ
+TUnA,Protein language model,Reported Bernett result,≈0.690,Literature-reported; protocol may differ
+Pool PaRTI,Protein language model,Reported Bernett result,≈0.701,Literature-reported; protocol may differ
+C3PI,Protein language model,Reported Bernett result,≈0.695,Literature-reported; protocol may differ
+ESM2 Mean Pooling,ESM2-650M,Reported Bernett result,≈0.717,Literature-reported; protocol may differ
+ESM2-GP (ours),Frozen ESM2-t33-650M protein-level representation,Bernett Intra2 protein-disjoint,0.7074 ± 0.0035,Controlled result in this work
+PaGL-PPI (ours),ESM2 global + partner-aware local interaction,Bernett Intra2 protein-disjoint,0.7179 ± 0.0022,Controlled result in this work
